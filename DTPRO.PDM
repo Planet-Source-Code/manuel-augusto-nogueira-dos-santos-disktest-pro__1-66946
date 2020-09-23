@@ -1,0 +1,96 @@
+[Root]
+Most Recent Package=Disktest PRO Setup
+
+
+[Package|Disktest PRO Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\CD\Disk Test PRO\Source Code\Package
+
+[Package|Disktest PRO Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Disktest PRO Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Disktest PRO Setup|Files Found]
+
+[Package|Disktest PRO Setup|Files Released]
+
+[Package|Disktest PRO Setup|Missing Dependency Information]
+
+[Package|Disktest PRO Setup|Out-of-Date Dependency Information]
+
+[Package|Disktest PRO Setup|Files Added]
+D:\CD\Disk Test PRO\DTPRO.hlp=
+D:\CD\Disk Test PRO\readme.txt=
+
+[Package|Disktest PRO Setup|Files Removed]
+
+[Package|Disktest PRO Setup|Files In Project]
+D:\CD\Disk Test PRO\DTPRO.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\CD\Disk Test PRO\DTPRO.hlp=Yes
+D:\CD\Disk Test PRO\readme.txt=Yes
+
+[Package|Disktest PRO Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Disktest PRO Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Disktest PRO Setup|Install Locations]
+D:\CD\Disk Test PRO\DTPRO.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\CD\Disk Test PRO\DTPRO.hlp=$(AppPath)
+D:\CD\Disk Test PRO\readme.txt=$(AppPath)
+
+[Package|Disktest PRO Setup|Configure Shared Files]
+Applicable=Yes
+D:\CD\Disk Test PRO\DTPRO.exe=No
+D:\CD\Disk Test PRO\DTPRO.hlp=No
+D:\CD\Disk Test PRO\readme.txt=No
+
+[Package|Disktest PRO Setup|Distribution]
+Type=single
+Size=
+Title=DTPRO
+
+[Package|Disktest PRO Setup|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=-1
+Parent0=
+
+[Package|Disktest PRO Setup|$(Programs)]
+Icon1=DTPRO.exe
+Title1=Disktest PRO
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|Disktest PRO Setup|Package]
+PackageFolder=D:\CD\Disk Test PRO\Source Code\Package
+ProjectFolder=D:\CD\Disk Test PRO\Source Code
+ServerSideCab=
+File1=D:\CD\Disk Test PRO\Source Code\Package\setup.exe
+File2=D:\CD\Disk Test PRO\Source Code\Package\Setup.Lst
+File3=D:\CD\Disk Test PRO\Source Code\Package\DTPRO.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
